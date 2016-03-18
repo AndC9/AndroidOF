@@ -8,7 +8,7 @@ import android.view.View;
 /**
  * Created by liukun on 16/3/18.
  */
-public abstract class BaseFragmentActivity extends FragmentActivity implements IFrameBasic{
+public abstract class BaseFragmentActivity extends FragmentActivity implements IBasic {
     protected View mView;
         @Override
         protected void onCreate(Bundle arg0) {
