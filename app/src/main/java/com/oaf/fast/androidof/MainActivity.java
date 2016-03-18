@@ -1,19 +1,25 @@
 package com.oaf.fast.androidof;
-
-import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
-
+import com.oaf.fast.androidof.baseActivity.BaseFragmentActivity;
 
 
 /**
  * Created by liukun on 16/3/18.
  */
-public class MainActivity extends FragmentActivity{
+public class MainActivity extends BaseFragmentActivity{
 
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.mian);
+    public int getLayoutId() {
+        return R.layout.mian;
+    }
+
+    @Override
+    public void iniVariable() {
+
+    }
+
+    @Override
+    public void settingViews() {
+
     }
 }
