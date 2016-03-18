@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.2"
 
     defaultConfig {
-        applicationId "fast.oaf.com.androidof"
+        applicationId "com.fast.oaf.androidof"
         minSdkVersion 10
         targetSdkVersion 23
         versionCode 1
