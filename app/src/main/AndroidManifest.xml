@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="fast.oaf.com.androidof">
+    package="com.oaf.fast.androidof">
 
     <application
         android:allowBackup="true"
