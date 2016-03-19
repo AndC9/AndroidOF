@@ -1,4 +1,5 @@
 package com.oaf.fast.androidof;
+import android.widget.TextView;
 import com.oaf.fast.androidof.baseActivity.BaseFragmentActivity;
 
 
@@ -7,7 +8,7 @@ import com.oaf.fast.androidof.baseActivity.BaseFragmentActivity;
  */
 public class MainActivity extends BaseFragmentActivity{
 
-
+    private TextView t_name;
     @Override
     public int getLayoutId() {
         return R.layout.mian;
@@ -20,6 +21,6 @@ public class MainActivity extends BaseFragmentActivity{
 
     @Override
     public void settingViews() {
-
+        t_name=(TextView)findViewById(R.id.name);
     }
 }
